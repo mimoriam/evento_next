@@ -1,1 +1,7 @@
 npm i -D prettier eslint-config-standard eslint-plugin-tailwindcss eslint-config-prettier eslint-plugin-prettier prettier-plugin-tailwindcss
+
+npm i react-hook-form @hookform/resolvers zod
+npm i server-only @radix-ui/react-icons clsx framer-motion tailwind-merge
+
+npm i -D prisma
+npm i @prisma/client
