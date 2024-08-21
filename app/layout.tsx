@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import React from "react";
+import Container from "@/components/Container";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Evento - Find events around you",
@@ -15,7 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`overflow-y-scroll bg-gray-950 text-white`}>
-        {children}
+        <Container>
+          <Header />
+          {children}
+        </Container>
       </body>
     </html>
   );
