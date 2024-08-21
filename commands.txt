@@ -5,3 +5,6 @@ npm i server-only @radix-ui/react-icons clsx framer-motion tailwind-merge
 
 npm i -D prisma
 npm i @prisma/client
+
+npx prisma init
+npx prisma migrate dev --name init
