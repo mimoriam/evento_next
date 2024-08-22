@@ -4,7 +4,7 @@ type SkeletonProps = {
   className?: string;
 };
 
-function Skeleton({ className }: SkeletonProps) {
+export function Skeleton({ className }: SkeletonProps) {
   return (
     <div
       className={cn(
